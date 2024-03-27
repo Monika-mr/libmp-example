@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 project(libmp-example)
 
 # Link MediaPipe Shared Lib
-set(MEDIAPIPE_DIR "C:/Users/rk274/code/mediapipe")
+set(MEDIAPIPE_DIR "C:\Users\Admin\Desktop\github\mediapipe")
 if(NOT EXISTS "${MEDIAPIPE_DIR}")
 	message(FATAL_ERROR "Mediapipe directory '${MEDIAPIPE_DIR}' not found!")
 endif()
